@@ -1,0 +1,9 @@
+{% extend 'base.html' %}
+{% block title %}
+- Detail
+{% endblock %}
+
+{% block content %}
+{{object.site_name}}
+<a href="{{object.url}}" target="_blank">{{object.url}}</a>
+{% endblock %}
